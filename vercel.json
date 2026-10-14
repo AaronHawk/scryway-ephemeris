@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/*.js": { "includeFiles": "ephe/**" }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/api" },
+    { "source": "/compute", "destination": "/api/compute" },
+    { "source": "/source", "destination": "/api/source" }
+  ]
+}

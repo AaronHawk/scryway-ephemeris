@@ -1,0 +1,22 @@
+{
+  "name": "scryway-ephemeris",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stand-alone astrological calculation service for Scryway, using the Swiss Ephemeris. AGPL-3.0-or-later.",
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronHawk/scryway-ephemeris"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "sweph": "2.10.3-8"
+  }
+}
